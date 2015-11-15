@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+<title>
+Forms
+</title>
+
+
+</head>
+<body>
+<center>
+<h1>Sign Up Today!</h1>
+<br>
+<form action="formaction.php">
+<label>Name: <input type="text" name="name"></label>
+<br>
+<br>
+<label>Email: <input type="email" name="email"></label>
+<br>
+<label>Confirm Email: <input type="email" name="confemail"></label>
+<br>
+<br>
+<label>Password: <input type="password" name="pass"></label>
+<br>
+<label>Confirm Password: <input type="password" name="confpass"></label>
+<br>
+<h4>How did hear about our wonderful service?</h4>
+<select name="hearabout">
+<option value="web">Web</option>
+<option value="tv">TV</option>
+<option value="email">Email</option>
+</select>
+<br>
+<h4>Gender:</h4>
+<input type="radio" name="gender" value="male" /> Male
+<input type="radio" name="gender" value="female" /> Female
+<br>
+<label>Anything We Should Know About You: <br><textarea name="otherstuff" cols="30" rows="10">Preferences, etc.</textarea></label>
+<br>
+<input type="checkbox" name="signmeup" value="emails" /> Sign Me Up For Emails
+<br>
+<button type="submit" name="submitbutton">Submit</button>
+</form>
+</center>
+
+</body>
+
+</html>
